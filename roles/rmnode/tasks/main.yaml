@@ -1,5 +1,4 @@
 ---
 - include: facts.yaml
-- include: satellite.yaml
 - include: poweroff.yaml
 - include: profiles.yaml
