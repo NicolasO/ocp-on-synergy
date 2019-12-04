@@ -1,9 +1,0 @@
----
-- include: dns.yaml
-  tags:
-  - dns
-- include: glusterfs.yaml
-  when:
-  - "'glusterfs' in group_names"
-  tags:
-  - glusterfs

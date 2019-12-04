@@ -1,7 +1,0 @@
----
-- include: storage.yaml
-  when:
-  - "inventory_hostname == groups['masters'][0]"
-- include: cloudforms.yaml
-  when:
-  - "inventory_hostname == groups['masters'][0]"
